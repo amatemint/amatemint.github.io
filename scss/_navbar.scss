@@ -8,6 +8,16 @@
     font-weight: 700;
     text-transform: uppercase;
     color: $primary;
+    width             : 130px;
+    height            : 60px;
+    background-image  : $amatemint-logo;
+    background-repeat : no-repeat;
+    background-size   : contain;
+    cursor: pointer;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-top:10px;
     @include sans-serif-font;
     &:focus,
     &:hover {
@@ -42,6 +52,7 @@
       color: fade-out($white, .3);
       &:focus,
       &:hover {
+        background-image  : $amatemint-logo-white-text;
         color: $white;
       }
     }
