@@ -5,12 +5,13 @@
   @include sans-serif-font;
   @include transition-all;
   .navbar-brand {
+    padding:0;
     font-weight: 700;
     text-transform: uppercase;
     color: $primary;
     width             : 130px;
     height            : 60px;
-    background-image  : $amatemint-logo;
+    background-image  : $full-amatemint-logo;
     background-repeat : no-repeat;
     background-size   : contain;
     cursor: pointer;
@@ -52,7 +53,7 @@
       color: fade-out($white, .3);
       &:focus,
       &:hover {
-        background-image  : $amatemint-logo-white-text;
+        background-image  : $full-amatemint-logo-white;
         color: $white;
       }
     }
